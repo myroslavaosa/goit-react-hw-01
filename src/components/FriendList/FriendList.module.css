@@ -1,0 +1,22 @@
+body {
+    margin: 0 auto;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: center; /* Centers items horizontally */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    width: 100%; /* Takes full width of its container */
+}
+
+.item {
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: rgb(247, 244, 244);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 70px;
+    padding: 10px;
+    text-align: center; /* Centers content inside items */
+}
